@@ -1,0 +1,27 @@
+// Auto-generated CST file:
+
+IO_LOC "sys_clk" Y18;
+IO_PORT "sys_clk" IO_TYPE=LVCMOS33 PULL_MODE=NONE BANK_VCCIO=3.3;
+
+IO_LOC "sys_rst_n" B21;
+IO_PORT "sys_rst_n" IO_TYPE=LVCMOS33 PULL_MODE=NONE BANK_VCCIO=3.3;
+
+IO_LOC "tmds_clk_p" K4,J4;
+IO_PORT "tmds_clk_p" IO_TYPE=LVCMOS33D PULL_MODE=NONE DRIVE=8 BANK_VCCIO=3.3;
+
+// diff_port: tmds_clk_n <--> tmds_clk_p
+
+IO_LOC "tmds_data_p[0]" L3,K3;
+IO_PORT "tmds_data_p[0]" IO_TYPE=LVCMOS33D PULL_MODE=NONE DRIVE=8 BANK_VCCIO=3.3;
+
+IO_LOC "tmds_data_p[1]" L5,L4;
+IO_PORT "tmds_data_p[1]" IO_TYPE=LVCMOS33D PULL_MODE=NONE DRIVE=8 BANK_VCCIO=3.3;
+
+IO_LOC "tmds_data_p[2]" M3,M2;
+IO_PORT "tmds_data_p[2]" IO_TYPE=LVCMOS33D PULL_MODE=NONE DRIVE=8 BANK_VCCIO=3.3;
+
+// diff_port: tmds_data_n[0] <--> tmds_data_p[0]
+
+// diff_port: tmds_data_n[1] <--> tmds_data_p[1]
+
+// diff_port: tmds_data_n[2] <--> tmds_data_p[2]

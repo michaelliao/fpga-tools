@@ -1,0 +1,25 @@
++------------------------------------------------------------------------------+
+|                                 HELLO, WORLD                                 |
++------------------------------------------------------------------------------+
+|                                                                              |
+| // Copyleft @ liaoxuefeng.com                                                |
+|                                                                              |
+| // half_adder.sv                                                             |
+|                                                                              |
+| module half_adder (                                                          |
+|     input logic a,                                                           |
+|     input logic b,                                                           |
+|     output logic sum,                                                        |
+|     output logic carry                                                       |
+| );                                                                           |
+|                                                                              |
+|     assign sum = a ^ b;                                                      |
+|     assign carry = a & b;                                                    |
+|                                                                              |
+| endmodule                                                                    |
+|                                                                              |
+| // ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz 0123456789          |
+| // ~!@#$%^&*()_+`-={}[]:;"'<>?,.                                             |
++------------------------------------------------------------------------------+
+|                 Learn Verilog HDL at https://liaoxuefeng.com                 |
++------------------------------------------------------------------------------+
